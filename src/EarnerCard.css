@@ -1,0 +1,14 @@
+.card{
+    margin: 2% 2px;
+}
+
+.card > p{
+    margin-left: 1%;
+    padding-left: 1%;
+    border-left: 4px solid #1CB631;
+}
+
+.card > img{
+    height: 100%;
+    width: 100%;
+}

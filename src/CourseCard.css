@@ -1,0 +1,80 @@
+.course-card{
+    height: 100%;
+    width: 80%;
+    border: 1px solid gray;
+    margin: 1% 3.5%;
+    border-radius: 6px;
+}
+
+.card-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 200px;
+    width: 100%;
+}
+
+.card-top > p{
+    margin: 2% 3%;
+    padding: 1% 3%;
+    background-color: #1F2532;
+    color: white;
+    border-radius: 6px;
+}
+
+.card-mid{
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+}
+
+.card-mid > h4{
+    margin: 4% 4px;
+    padding: 0 1px;
+}
+
+.card-mid > h5{
+    margin: 1px 5px;
+}
+
+.card-info{ 
+    margin: 2% 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info > div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1% 2px;
+    padding: 1% 5px;
+}
+
+.card-info > div > p{
+    margin: auto 1px;
+    font-size: smaller;
+}
+
+.card-mid > h3{
+    width: 100%;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.card-bottom > p{
+    margin: auto 4px;
+}
+
+.tutor-info{
+    margin: 2px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tutor-info > h4{
+    color: #1CB631;
+}

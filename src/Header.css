@@ -1,0 +1,52 @@
+.header{
+    width: 98%;
+    margin: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    width: 40%;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    font-size: large;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border: none;
+    background-color: white;
+}
+
+.register{
+    color: white;
+    border: none;
+    background-color: #01CB63;
+    border-radius: 13px;
+    padding: 13px 20px;
+    font-size: large;
+    margin: 5px 10px;
+}
+
+@media screen and (max-width:475px) {
+    .header-right{
+        margin: 1px 1px;
+    }
+    .register{
+        padding: 5px 8px;
+        margin: 2px 2px;
+    }
+    .login{
+        margin: 4px 2px;
+    }
+    .header-left > img{
+    height: 100%;
+    width: 100%; 
+    } 
+
+}

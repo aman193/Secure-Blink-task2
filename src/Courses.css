@@ -1,0 +1,31 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-top > h5{
+    font-style: italic;
+    color: #1CB631;
+}
+
+.courses-top > p{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.courses-bottom{
+    margin: 0 3%;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:700px) {
+    .courses-bottom{
+        flex-direction: column;
+    }
+}

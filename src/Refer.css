@@ -1,0 +1,18 @@
+.refer{
+    margin: 10px 3%;
+}
+
+.refer > p{
+    margin: 1% 5%;
+    color: #1BC631;
+    font-style: italic;
+}
+
+.refer > h2{
+    margin: 1% 5%;
+}
+.refer > img{
+    margin: 2% 5%;
+    height: 100%;
+    width: 90%;
+}

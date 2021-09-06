@@ -1,0 +1,44 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 2% 6%;
+}
+
+.testimonial-top{
+    margin: 1% 2%;
+    width: 50%;
+}
+
+.testimonial-top > p{
+    color: #1BC613;
+    font-style: italic;
+}
+
+.testimonial-top > h2{
+    margin: 2px 0;
+    padding: 2px 0;
+    width: 40%;
+}
+
+.testimonial-bottom{
+    display: flex;
+    margin: 1% 5%;
+    justify-content: space-evenly;
+    width: 90%;
+    height: max-content;
+}
+
+@media screen and (max-width: 700px) {
+    .testimonial-top{
+        width: 90%;
+    }
+    .testimonial-top > h2{
+        width: 80%;
+    }
+    .testimonial-bottom{
+        flex-direction: column;
+        width: 100%;
+    }
+}
