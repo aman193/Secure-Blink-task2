@@ -1,8 +1,10 @@
 .header{
     width: 98%;
-    margin: 0% 1%;
+    margin: -60px 1% 0 1%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    /* height: 100%; */
 }
 
 .header-left{
@@ -12,15 +14,16 @@
 .header-right{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .login{
     font-size: large;
     padding: 5px 5px;
-    margin: 5px 10px;
+    margin: 10px 10px;
     border: none;
-    background-color: white;
+    background-color: transparent;
+    z-index: -1;
 }
 
 .register{

@@ -1,5 +1,6 @@
 .home{
     width: 100%;
+    margin-top: 60px;
 }
 .home-top{
     display: flex;
@@ -10,7 +11,7 @@
 
 .home-left{
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -47,6 +48,7 @@
 .home-top > img{
     opacity: 0.7;
     width: 50%;
+    height: auto;
 }
 
 .home-bottom{
@@ -59,6 +61,9 @@
 @media screen and (max-width:475px) {
     .home-top{
         flex-direction: column;
+    }
+    .home-left{
+        width: 95%;
     }
     .home-top > img{
         width: 100%;
