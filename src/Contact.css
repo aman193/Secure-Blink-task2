@@ -48,8 +48,13 @@
 }
 
 .contact-info > img {
+    cursor: pointer;
     height: 80px;
     width: 80px;
+}
+
+.contact-info > img:hover {
+    transform: scale(1.1);
 }
 
 .social-media{
@@ -67,8 +72,12 @@
     justify-content: space-between;
     margin: 2% 2%;
     padding: 0 2px;
+    cursor: pointer;
 }
 
+.social-media-channel-icon > img:hover{
+    transform: scale(1.1);
+}
 .social-media-channel-icon > img {
     height: 60px;
     width: 60px;
@@ -115,10 +124,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
-
 }
 
 .form-btn > button{
+    cursor: pointer;
     font-size: large;
     padding: 2% 4%;
     border-radius: 7px;
